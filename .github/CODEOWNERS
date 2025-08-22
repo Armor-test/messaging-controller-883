@@ -1,0 +1,38 @@
+# CODEOWNERS file for messaging-controller-883
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-apps @Armor-test/dept-reporting @Armor-test/grp-reporting
+
+# Directory ownership
+/lib/ @Armor-test/dept-reliability @Armor-test/dept-ui @Armor-test/unit-governance
+/deploy/ @Armor-test/dept-reporting @Armor-test/unit-devops
+/security/ @Armor-test/grp-storage @Armor-test/team-reporting @Armor-test/grp-ui
+/models/ @Armor-test/squad-payments @Armor-test/squad-research @Armor-test/dept-data
+/third_party/ @Armor-test/squad-apps @Armor-test/dept-security @Armor-test/dept-automation
+/views/ @Armor-test/dept-logging @Armor-test/squad-api
+/internal/ @Armor-test/team-frontend @Armor-test/squad-product
+/components/ @Armor-test/dept-data @Armor-test/squad-tooling @Armor-test/squad-payments
+/plugins/ @Armor-test/team-logging @Armor-test/squad-api @Armor-test/squad-mobile
+/db/ @Armor-test/squad-payments @Armor-test/team-governance
+/assets/ @Armor-test/dept-security @Armor-test/dept-reliability
+
+# File type ownership
+*.rb @Armor-test/unit-devops @Armor-test/team-frontend
+*.scss @Armor-test/dept-ui @Armor-test/team-security @Armor-test/grp-api
+*.tsx @Armor-test/team-security @Armor-test/squad-frontend @Armor-test/grp-reporting
+*.js @Armor-test/dept-logging @Armor-test/dept-reporting
+*.scala @Armor-test/dept-release @Armor-test/squad-mobile @Armor-test/dept-security
+*.ts @Armor-test/squad-reporting @Armor-test/grp-api
+*.proto @Armor-test/squad-ux @Armor-test/dept-data
+*.lock @Armor-test/squad-research @Armor-test/squad-database
+*.config @Armor-test/squad-api @Armor-test/dept-automation @Armor-test/squad-frontend
+*.tf @Armor-test/dept-notifications @Armor-test/squad-payments @Armor-test/squad-tooling
+*.gradle @Armor-test/grp-payments @Armor-test/team-research
+*.h @Armor-test/squad-api @Armor-test/dept-logging @Armor-test/team-security
+*.graphql @Armor-test/dept-ui @Armor-test/grp-api @Armor-test/unit-design
+*.css @Armor-test/grp-payments @Armor-test/grp-ui @Armor-test/unit-governance
+*.yaml @Armor-test/squad-search @Armor-test/squad-qa @Armor-test/squad-apps
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
